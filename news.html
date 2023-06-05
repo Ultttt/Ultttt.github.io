@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 6%
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li:first-child {
+        float: left;
+    }
+
+    li:not(:first-child) {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .navbar-item {
+        display: flex;
+        align-items: center;
+        height: 40px;
+    }
+
+    .navbar-item img {
+        vertical-align: middle;
+    }
+    
+    
+    body {
+        background-color: black;
+        margin: 0;
+        padding-top: 60px;
+    }
+    
+    li a:hover {
+        background-color: black;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-icons a {
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .footer-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-icons a img {
+        filter: grayscale(100%);
+    }
+
+    .footer-icons a:hover img {
+        filter: none;
+    }
+
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin-top: 20px;
+    }
+
+    .news-item {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .news-item img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+    }
+
+    .news-item a {
+        color: white;
+        text-decoration: none;
+    }
+    
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html"><img src="T1_logo.png" alt="Home_icon" width="90px" height="40px"></a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+    </ul>
+    
+    <center><h2 style="font-family: 'Raleway', sans-serif; color: white;">Trending News</h2></center>
+
+
+    <div class="news-container">
+        <div class="news-item">
+            <img src="https://static.invenglobal.com/upload/image/2022/10/04/i1664853236333288.jpeg" alt="News 1">
+            <a href="https://dotesports.com/league-of-legends/news/t1-dominates-dk-record-the-longest-24-match" style="font-family: 'Raleway', sans-serif;">T1 announces their theme song for Worlds 2022, titled 'Last Man Standing'</a>
+        </div>
+            
+        <div class="news-item">
+            <img src="https://dotesports.com/wp-content/uploads/2022/10/02125400/Faker-at-MSI-Lee-Aiksoon.jpg?w=1200" alt="News 2">
+            <a href="https://dotesports.com/league-of-legends/news/t1s-worlds-2022-jersey-invokes-some-classic-skt-nostalgia" style="font-family: 'Raleway', sans-serif;">T1’s Worlds 2022 jersey invokes some classic SKT nostalgia</a>
+        </div>
+            
+        <div class="news-item">
+            <img src="https://static.invenglobal.com/upload/image/2022/09/15/o1663246761957694.jpeg" alt="News 3">
+            <a href="https://www.invenglobal.com/articles/17843/c9-edg-and-t1-in-the-same-group-again-worlds-2017-flashback" style="font-family: 'Raleway', sans-serif;">C9, EDG, and T1 in the same group again? — Worlds 2017 flashback</a>
+        </div>
+            
+        <div class="news-item">
+            <img src="https://cdn.oneesports.gg/cdn-data/2022/09/Dota2_Ana_T1-1024x576.webp" alt="News 4">
+            <a href="https://www.oneesports.gg/dota2/exclusive-ana-join-t1-topson/" style="font-family: 'Raleway', sans-serif;">Exclusive: Ana explains why he joined T1 and how he got Topson in</a>
+        </div>
+        
+        <div class="news-item">
+            <img src="https://dotesports.com/wp-content/uploads/2022/09/05022120/52236284078_dbb5e9010e_k.jpg?w=1200" alt="News 5">
+            <a href="https://dotesports.com/league-of-legends/news/t1-removes-polt-league-head-coach-promotes-bengi" style="font-family: 'Raleway', sans-serif;">T1 removes Polt from League head coach position, promotes Bengi to interim ahead of Worlds 2022</a>
+        </div>
+        
+        <div class="news-item">
+            <img src="https://cdn.oneesports.gg/cdn-data/2022/08/Valorant_T1_Sign_Ban-1024x576.webp" alt="News 6">
+            <a href="https://www.oneesports.gg/valorant/t1-valorant-adds-knights-player-ban/" style="font-family: 'Raleway', sans-serif;">T1 adds former Knights player ban to Valorant roster</a>
+        </div>
+        
+        <div class="news-item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/62fb9fb4c8f6f1b1fd38a5f7/Dota-2-player-Ana/960x0.jpg?format=jpg&width=960" alt="News 7">
+            <a href="https://www.forbes.com/sites/mikestubbs/2022/08/16/ana-and-topson-join-t1-dota-2-team-just-in-time-for-the-ti-qualifiers/?sh=7a6cd5393a6a" style="font-family: 'Raleway', sans-serif;">T1 adds former Knights player ban to Valorant roster</a>
+        </div>
+        
+        <div class="news-item">
+            <img src="https://img.redbull.com/images/c_crop,x_1,y_0,h_1365,w_2047/c_fill,w_1920,h_1279/q_auto,f_auto/redbullcom/2022/7/20/jofdmxfqvjacmupmwoy6/faker-lck-2022-summer" alt="News 8">
+            <a href="https://www.redbull.com/pk-en/t1-lck-summer-season-2022-halfway-mark" style="font-family: 'Raleway', sans-serif;">TT1 fight for the top at the halfway point of the LCK 2022 Summer Season</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; COPYRIGHT @ 2022 SK Telecom CS T1 Co. ALL RIGHTS RESERVED</p>
+            <hr>
+            <p>Follow Us</p>
+        </div>
+        <div class="footer-icons">
+            <a href="https://twitter.com/T1LoL"><img src="twi_icon.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/T1LoL"><img src="fb_icon.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/sktt1"><img src="youtube_icon.png" alt="YouTube"></a>
+            <a href="https://www.instagram.com/t1lol/"><img src="ins_icon.png" alt="Instagram"></a>
+            <a href="https://www.twitch.tv/t1esports"><img src="twich_icon.png" alt="Twitch"></a>
+            <a href="https://www.tiktok.com/@t1"><img src="tiktok_icon.png" alt="TikTok"></a>
+            <a href="https://weibo.com/SKTT1LOL"><img src="weibo_icon.png" alt="Weibo"></a>
+        </div>
+    </footer>
+</body>
+</html>
